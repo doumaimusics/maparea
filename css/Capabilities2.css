@@ -1,0 +1,273 @@
+body{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+/*capabilities-two.html中间样式*/
+.center-box .wcontainer .center-right .fw-img-box{
+	margin-top: 15px;
+	height: 583px;
+	background: url(../images/capabilities/bg1.png) no-repeat;
+	overflow: hidden;
+	position: relative;
+	
+}
+.center-right .fw-img-box .text{
+	font-size:16px;
+	color: #333;
+	border:1px solid #999999;
+	width: 255px;
+	line-height: 15px;	
+	margin: 15px 0 0 15px;
+	font-weight: bold;
+	text-align: center;
+	padding: 10px;
+}
+.center-right .fw-img-box .J-fw-img{
+	height: 472px;
+	width: 833px;
+	margin: 10px 0 0 25px;
+    position: absolute;
+    top:70px;
+    left: 0;
+	background: url(../images/capabilities/bg2.png) no-repeat;
+	
+}
+.center-right .fw-img-box .J-fw-img .region-button{
+	z-index: 15;
+	position:absolute;
+	left: 0;
+	top: 0;
+}
+.center-right .fw-img-box .J-fw-img .img-bg01{
+	position:absolute;
+	left: 0px;
+	top: 273px;
+	z-index: 10;
+	display: none;
+    background:url(../images/capabilities/bg01.png)
+}
+.center-right .fw-img-box .J-fw-img .img-bg02{
+	position:absolute;
+	left: 86px;
+	top: 217px;
+	z-index: 10;
+	display: none;
+	
+}
+.center-right .fw-img-box .J-fw-img .img-bg03{
+	position:absolute;
+	left: 185px;
+	top: 161px;
+	z-index: 10;
+	display: none;
+	
+}
+.center-right .fw-img-box .J-fw-img .img-bg04{
+	position:absolute;
+	left: 280px;
+	top: 110px;
+	z-index: 10;
+	display: none;
+	
+}
+.center-right .fw-img-box .J-fw-img .img-bg05{
+	position:absolute;
+	left: 378px;
+	top: 52px;
+	z-index: 10;
+	display: none;
+	
+}
+.center-right .fw-img-box .J-fw-img .img-bg06{
+	position:absolute;
+	left: 475px;
+	top: 0px;
+	z-index: 10;
+	display: none;
+	
+}
+.center-right .fw-img-box .J-fw-img .img-bg07{
+	position:absolute;
+	left: 573px;
+	top: 53px;
+	z-index: 10;
+	display: none;
+	
+}
+.center-right .fw-img-box .J-fw-img .img-bg08{
+	position:absolute;
+	left: 670px;
+	top: 107px;
+	z-index: 10;
+	display: none;
+	
+}
+.center-right .fw-img-box .J-fw-img .img-bg09{
+	position:absolute;
+	left: 574px;
+	top: 163px;
+	z-index: 10;
+	display: none;
+	
+}
+.center-right .fw-img-box .J-fw-img .img-bg10{
+	position:absolute;
+	left: 475px;
+	top: 107px;
+	z-index: 10;
+	display: none;
+	
+}
+.center-right .fw-img-box .J-fw-img .img-bg11{
+	position:absolute;
+	left: 473px;
+	top: 220px;
+	z-index: 10;
+	display: none;
+	
+}
+.center-right .fw-img-box .J-fw-img .img-bg12{
+	position:absolute;
+	left:377px;
+	top: 164px;
+	z-index: 10;
+	display: none;
+	
+}
+.center-right .fw-img-box .J-fw-img .img-bg13{
+	position:absolute;
+	left: 282px;
+	top: 217px;
+	z-index: 10;
+	display: none;
+	
+}
+.center-right .fw-img-box .J-fw-img .img-bg14{
+	position:absolute;
+	left: 378px;
+	top: 273px;
+	z-index: 10;
+	display: none;
+	
+}
+.center-right .fw-img-box .J-fw-img .img-bg15{
+	position:absolute;
+	left: 182px;
+	top:273px;
+	z-index: 10;
+	display: none;
+	
+}
+.center-right .fw-img-box .J-fw-img .img-bg16{
+	position:absolute;
+	left:280px;
+	top: 326px;
+	z-index: 10;
+	display: none;
+	
+}
+.center-right .fw-img-box .J-fw-img .img-bg17{
+	position:absolute;
+	left: 95px;
+	top: 330px;
+	z-index: 10;
+	display: none;
+	
+}
+.center-right .fw-img-box .J-fw-img .img-bg18{
+	position:absolute;
+	left: 190px;
+	top: 384px;
+	z-index: 10;
+	display: none;
+	
+}
+
+.center-right .fw-img-box .J-fw-img map area{
+	    display: inline;
+	    z-index: 16;
+}
+
+
+/*弹框样式*/
+.Capacity{
+	width:620px;
+	height:450px;
+	background: #fff;
+	position: fixed;
+	left: 0;right:0;
+	top: 0;bottom: 0;
+	margin: auto;
+	overflow: hidden;
+	padding: 0 30px;
+	background: darkgray;
+	z-index: 100001;
+	display: none;
+}
+.Capacity .icon{
+	margin:0px 15px 0 0px;
+	vertical-align: middle;
+}
+.Capacity .title{
+	display:inline;
+    font-size: 24px;
+    color:#333;
+    line-height: 100px;	
+}
+.Capacity .centerbox{
+	width: 100%;
+	height: 320px;
+	border: 1px solid #F4F4F4;
+	background: #FBFBFB;
+	padding: 15px;
+	box-sizing:border-box;
+}
+
+.Capacity .centerbox p.present{
+	width: 50%;
+	float:left;
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+}
+.Capacity .centerbox ul{
+	width: 50%;
+	float:right;
+}
+.Capacity .centerbox ul li{
+	margin-top: 5px;
+}
+.Capacity .centerbox ul li img{
+	margin-left: 20px;
+}
+.mask{
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: 0.5;
+	z-index: 100000;
+	position: absolute;
+	left: 0;top:0;
+	display: none;
+}
+.close {
+	width: 31px;
+	height: 31px;
+	display: inline-block;
+	background: url(../images/capabilities/product-icon-1x.png) no-repeat;
+	background-position: -9px -593px;
+	cursor: pointer;
+	position: fixed;
+	left: 730px;right:0;
+	top: -419px;bottom: 0;
+	margin: auto;
+	z-index: 100001;
+	display: none;
+}
+
+.close:hover {
+	background-position: -9px -593px;
+}
+

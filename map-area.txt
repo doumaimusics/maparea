@@ -1,0 +1,22 @@
+个人认为做map图像映射时最好用Dreamweaver中，这个编辑器直接用鼠标点击想要的区块会自动绘制出坐标，并自动添加在HTML文件中，非常方便。
+
+<map></map>标签用于客户端图像映射。图像映射只带有可点击区域的一副图像。
+<img>中的usemap属性可引用<map>中的id或name属性，所以我们应同时向<map>添加相同的id和name属性。
+
+area元素永远嵌套在map元素内部。area元素可定义图像映射中的区域。
+
+area中shape属性规定区域的形状，尺寸，位置
+
+area中shape属性值default：规定全部区域。
+                 rect：   定义矩形区域。
+                 circ:    定义圆形。
+                 poly:    定义多变形区域。
+
+例子：<img src="图片地址" alt="提示" usemap="#id名字">
+      <map name="与img中usemap一样的名字">
+         <area shape="default" coords="0,0,82,126" href="跳转的地址" alt="提示"> 
+         <area shape="rect" coords="0,0,82,126" href="跳转的地址" alt="提示"> 
+         <area shape="circ" coords="0,0,82,126" href="跳转的地址" alt="提示">
+         <area shape="poly" coords="0,0,82,126" href="跳转的地址" alt="提示">  
+      </map>
+     
